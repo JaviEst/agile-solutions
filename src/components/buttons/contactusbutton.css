@@ -1,0 +1,16 @@
+.contact-button {
+    background: #1074F0;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 1.7rem;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .contact-button:hover {
+    background: #333;
+  } 

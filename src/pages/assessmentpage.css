@@ -1,0 +1,163 @@
+.assessment-page {
+    background: #fff;
+    min-height: 80vh;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Hero Section Styles */
+  .assessment-hero {
+    background: #F1EFEB;
+    padding: 2.5rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .assessment-hero-inner {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .assessment-hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .assessment-hero-image {
+    background: #fff;
+    border: 4px solid #111;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transform: scale(1.3);
+  }
+  
+  .assessment-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .assessment-hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    color: #111;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .assessment-hero-desc {
+    font-size: 1.15rem;
+    color: #222;
+    margin: 0;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .assessment-types-section {
+    background: #FAF5EE;
+    padding: 2.5rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .assessment-types-inner {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .assessment-types-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+  }
+  
+  .assessment-types-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .assessment-type-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .assessment-type-text {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .assessment-type-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .assessment-type-desc {
+    font-size: 1rem;
+    color: #222;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+  }
+  
+  .assessment-type-image {
+    flex: 0 0 80px;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+
+  @media (max-width: 700px) {
+    .assessment-hero-inner {
+      max-width: 95vw;
+    }
+    .assessment-hero-image {
+      width: 120px;
+      height: 120px;
+      padding: 1rem;
+    }
+    .assessment-type-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .assessment-type-image {
+      align-self: flex-end;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .assessment-types-content {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: stretch;
+    }
+    .assessment-type-card {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .assessment-type-image {
+      align-self: flex-end;
+    }
+  }

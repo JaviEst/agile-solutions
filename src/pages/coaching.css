@@ -1,0 +1,103 @@
+.coaching-page {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.coaching-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 0 2.5rem 0;
+  background: #99FFCE45;
+}
+
+.coaching-hero-bg {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  min-height: 260px;
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/public/coaching.png') center/cover no-repeat; /* Replace with your image path */
+}
+
+.coaching-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(80, 80, 80, 0.32); /* semi-transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coaching-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 2.5rem 2.5rem 2.5rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.coaching-hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.coaching-hero-subtitle {
+  font-size: 1.15rem;
+  color: #fff;
+  margin-bottom: 2.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.coaching-section {
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.coaching-section--agile {
+  background: #F4D39A45;
+  border-radius: 0;
+  align-items: center;
+}
+
+.coaching-section--devops {
+  background: #D5A0A069;
+  border-radius: 0;
+  align-items: center;
+}
+
+.coaching-section--tools {
+  background: #F3E9E9;
+  border-radius: 0;
+  align-items: center;
+}
+
+.coaching-contact-btn-wrapper {
+  background: #D2E1F263;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+@media (max-width: 900px) {
+  .coaching-hero-content {
+    padding: 2rem 1rem 1.5rem 1rem;
+    max-width: 98vw;
+  }
+  .coaching-section {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+  .coaching-section-desc {
+    max-width: 98vw;
+  }
+} 

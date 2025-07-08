@@ -250,3 +250,8 @@ body, html {
   overflow-x: hidden;
   max-width: 100vw;
 } 
+
+.header, .header__nav {
+  overflow: visible !important;
+  height: auto !important;
+} 

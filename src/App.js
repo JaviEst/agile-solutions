@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/homepage';  
-import AssessmentPage from './pages/assessmentpage';
-import TrainingPage from './pages/trainingpage';
-import CoachingPage from './pages/coachingpage';
-import ResourcesPage from './pages/resourcespage';
+import HomePage from './pages/home';  
+import AssessmentPage from './pages/assessment';
+import TrainingPage from './pages/training';
+import CoachingPage from './pages/coaching';
+import ResourcesPage from './pages/resources';
+import RegisterPage from './pages/register';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/training" element={<TrainingPage />} />
         <Route path="/coaching" element={<CoachingPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </Router>
   );

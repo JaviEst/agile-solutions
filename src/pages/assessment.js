@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import ContactButton from '../components/buttons/contactusbutton';
-import styles from './assessmentpage.css';
+import styles from './assessment.css';
 
 const AssessmentTopSection = () => (
   <section className="assessment-hero">

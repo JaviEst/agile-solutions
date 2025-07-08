@@ -94,7 +94,7 @@ const Header = () => {
           </li>
           <li className="header__nav-item">
             <button className="header__courses-btn">
-              <span className="header__courses-btn-text">View Courses</span>
+              <Link to="/courses" className="header__courses-btn-text">View Courses</Link>
             </button>
           </li>
         </ul>

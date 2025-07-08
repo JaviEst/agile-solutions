@@ -237,7 +237,7 @@
 /* Testimonials Section */
 .testimonials-section {
   background: #D3DCE8;
-  padding: 2.5rem 0 2rem 0;
+  padding: 2.5rem 0 3rem 0;
 }
 .testimonials-title {
   text-align: center;
@@ -278,7 +278,7 @@
 }
 .testimonial-quote {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #444;
   text-align: justify;
   margin-top: 0;

@@ -3,7 +3,6 @@ import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import styles from './home.css';
 import Carousel from '../components/carousel/Carousel';
-import { FaRegUserCircle } from 'react-icons/fa';
 
 const services = [
   {
@@ -241,7 +240,9 @@ const HomePage = () => (
   <>
     <Header />
     <main className="home-main">
-      <Carousel />
+      <section className="carousel-section">
+        <Carousel />
+      </section>
       <ServicesSection />
       <AboutSection />
       <PartnersSection />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Carousel.css';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 const slides = [
   {
@@ -79,8 +80,8 @@ export default function Carousel() {
             )}
           </div>
         </div>
-        <button className="carousel-arrow left" onClick={prev} aria-label="Previous Slide">&#8592;</button>
-        <button className="carousel-arrow right" onClick={next} aria-label="Next Slide">&#8594;</button>
+        <button className="carousel-arrow left" onClick={prev} aria-label="Previous Slide"><FaChevronLeft /></button>
+        <button className="carousel-arrow right" onClick={next} aria-label="Next Slide"><FaChevronRight /></button>
       </div>
       <div className="carousel-dots">
         {slides.map((_, idx) => (

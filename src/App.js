@@ -7,6 +7,7 @@ import CoachingPage from './pages/coaching';
 import ResourcesPage from './pages/resources';
 import RegisterPage from './pages/register';
 import CoursesPage from './pages/courses';
+import ApmCoursePage from './pages/apm_course';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/coaching" element={<CoachingPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/courses/apm" element={<ApmCoursePage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </Router>

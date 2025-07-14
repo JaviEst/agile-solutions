@@ -7,7 +7,7 @@ const countries = [
   '', 'United States', 'Canada', 'United Kingdom', 'India', 'Australia', 'Other'
 ];
 const courses = [
-  '', 'METCS634', 'METCS665', 'METCS673', 'METCS682'
+  '', 'Professional Scrum Master Training', 'Certified Scrum Master', 'Certified Scrum Product Owner',
 ];
 const paymentMethods = [
   '', 'Credit Card', 'Debit Card'

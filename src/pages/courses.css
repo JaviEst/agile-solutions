@@ -1,0 +1,220 @@
+.courses-main {
+  background: #f7fafd;
+  min-height: 100vh;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.courses-hero {
+  background: #eaf4fd;
+  padding: 32px 0 24px 0;
+}
+
+.courses-hero-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses-hero-img {
+  width: 95%;
+  max-width: 100%;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  object-fit: cover;
+  display: block;
+}
+
+.courses-search {
+  width: 95%;
+  max-width: 100%;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1.5px solid #dbeafe;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: block;
+}
+
+.courses-filters-calendar {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.courses-filters-calendar-row {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+.courses-filter-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 28px 32px;
+  min-width: 260px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.courses-filters-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.courses-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.courses-filters button {
+  background: #fff;
+  border: 1.5px solid #dbeafe;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+  cursor: pointer;
+  transition: background 0.15s, border 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  width: 100%;
+  min-width: 160px;
+}
+.courses-filters button:hover {
+  background: #f0f7ff;
+  border-color: #90cdf4;
+}
+.courses-calendar {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  min-width: 320px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.courses-calendar-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.courses-calendar-widget {
+  font-size: 1rem;
+  color: #888;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-list-section {
+  background: #fdf8ed;
+  padding: 48px 0 32px 0;
+  min-height: 500px;
+}
+
+.courses-list-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.courses-list-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 32px;
+  text-align: left;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courses-list {
+  width: 100%;
+  margin: 0 auto 32px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.1rem;
+  color: #888;
+}
+.courses-page-btn {
+  background: #fff;
+  border: 1.5px solid #dbeafe;
+  border-radius: 8px;
+  padding: 4px 14px;
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+  cursor: pointer;
+  transition: background 0.15s, border 0.15s;
+}
+.courses-page-btn:hover {
+  background: #eaf4fd;
+  border-color: #90cdf4;
+}
+
+.courses-calendar .react-calendar {
+  background: #fff !important;
+  border-radius: 16px;
+  box-shadow: none;
+  border: none;
+}
+
+.courses-calendar-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .courses-hero-container {
+    padding: 0 8px;
+  }
+  .courses-filters-calendar {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .courses-filters-calendar-row {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .courses-filter-card, .courses-calendar {
+    min-width: unset;
+    width: 100%;
+    padding: 12px 8px;
+  }
+  .courses-list {
+    max-width: 98vw;
+    padding: 0 2vw;
+  }
+} 
